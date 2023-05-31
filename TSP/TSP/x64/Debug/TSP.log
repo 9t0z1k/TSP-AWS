@@ -1,0 +1,35 @@
+﻿  main.cpp
+C:\Users\yatoz\source\repos\TSP\TSP\Graph.h(400,15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\yatoz\source\repos\TSP\TSP\Graph.h(343,48): message : while compiling class template member function 'void Graph<int>::visualizeGraph(Graph<int> &)'
+C:\Users\yatoz\source\repos\TSP\TSP\main.cpp(51,25): message : see reference to function template instantiation 'void Graph<int>::visualizeGraph(Graph<int> &)' being compiled
+C:\Users\yatoz\source\repos\TSP\TSP\main.cpp(31,22): message : see reference to class template instantiation 'Graph<int>' being compiled
+C:\Users\yatoz\source\repos\TSP\TSP\Graph.h(470,81): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\yatoz\source\repos\TSP\TSP\Graph.h(470,60): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\yatoz\source\repos\TSP\TSP\Graph.h(38): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\yatoz\source\repos\TSP\TSP\Graph.h(38,1): message : while compiling class template member function 'int Graph<int>::getAmountVertexes(void)'
+C:\Users\yatoz\source\repos\TSP\TSP\Graph.h(349,18): message : see reference to function template instantiation 'int Graph<int>::getAmountVertexes(void)' being compiled
+C:\Users\yatoz\source\repos\TSP\TSP\Graph.h(106,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\yatoz\source\repos\TSP\TSP\Graph.h(99,1): message : while compiling class template member function 'void Graph<int>::insertVertex(const T &)'
+          with
+          [
+              T=int
+          ]
+C:\Users\yatoz\source\repos\TSP\TSP\Graph.h(490,25): message : see reference to function template instantiation 'void Graph<int>::insertVertex(const T &)' being compiled
+          with
+          [
+              T=int
+          ]
+C:\Users\yatoz\source\repos\TSP\TSP\Graph.h(59,1): message : while compiling class template member function 'Graph<int>::Graph(const int &)'
+C:\Users\yatoz\source\repos\TSP\TSP\main.cpp(31,16): message : see reference to function template instantiation 'Graph<int>::Graph(const int &)' being compiled
+C:\Users\yatoz\source\repos\TSP\TSP\Graph.h(288,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\yatoz\source\repos\TSP\TSP\Graph.h(287,1): message : while compiling class template member function 'void Graph<int>::TSP(void)'
+C:\Users\yatoz\source\repos\TSP\TSP\Graph.h(473,10): message : see reference to function template instantiation 'void Graph<int>::TSP(void)' being compiled
+  TSP.vcxproj -> C:\Users\yatoz\source\repos\TSP\x64\Debug\TSP.exe
