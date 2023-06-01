@@ -16,6 +16,7 @@ SOURCES += \
     audienceform.cpp \
     campaignform.cpp \
     channelform.cpp \
+    deletedialog.cpp \
     dialogaudience.cpp \
     dialogcampaign.cpp \
     dialogchannel.cpp \
@@ -33,6 +34,7 @@ HEADERS += \
     audienceform.h \
     campaignform.h \
     channelform.h \
+    deletedialog.h \
     dialogaudience.h \
     dialogcampaign.h \
     dialogchannel.h \

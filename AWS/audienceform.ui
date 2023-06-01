@@ -30,7 +30,11 @@
       </widget>
      </item>
      <item>
-      <widget class="QLineEdit" name="lineEdit"/>
+      <widget class="QLineEdit" name="lineEdit">
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
      </item>
     </layout>
    </item>
@@ -44,7 +48,14 @@
       </widget>
      </item>
      <item>
-      <widget class="QSpinBox" name="spinBox"/>
+      <widget class="QSpinBox" name="spinBox">
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+       <property name="buttonSymbols">
+        <enum>QAbstractSpinBox::NoButtons</enum>
+       </property>
+      </widget>
      </item>
     </layout>
    </item>
@@ -58,7 +69,14 @@
       </widget>
      </item>
      <item>
-      <widget class="QSpinBox" name="spinBox_2"/>
+      <widget class="QSpinBox" name="spinBox_2">
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+       <property name="buttonSymbols">
+        <enum>QAbstractSpinBox::NoButtons</enum>
+       </property>
+      </widget>
      </item>
     </layout>
    </item>
@@ -72,7 +90,14 @@
       </widget>
      </item>
      <item>
-      <widget class="QSpinBox" name="spinBox_3"/>
+      <widget class="QSpinBox" name="spinBox_3">
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+       <property name="buttonSymbols">
+        <enum>QAbstractSpinBox::NoButtons</enum>
+       </property>
+      </widget>
      </item>
     </layout>
    </item>
@@ -86,7 +111,7 @@
    <item>
     <widget class="QPushButton" name="pushButton">
      <property name="text">
-      <string>Диалог</string>
+      <string>Заполнить</string>
      </property>
     </widget>
    </item>

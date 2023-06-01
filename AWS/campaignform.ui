@@ -41,7 +41,11 @@
         </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="lineEdit"/>
+        <widget class="QLineEdit" name="lineEdit">
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
        </item>
       </layout>
      </item>
@@ -56,6 +60,12 @@
        </item>
        <item>
         <widget class="QDoubleSpinBox" name="doubleSpinBox">
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+         <property name="buttonSymbols">
+          <enum>QAbstractSpinBox::NoButtons</enum>
+         </property>
          <property name="maximum">
           <double>1000000000000000048346692115553659057528394845890514255872.000000000000000</double>
          </property>
@@ -73,7 +83,14 @@
         </widget>
        </item>
        <item>
-        <widget class="QDateEdit" name="dateEdit"/>
+        <widget class="QDateEdit" name="dateEdit">
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+         <property name="buttonSymbols">
+          <enum>QAbstractSpinBox::NoButtons</enum>
+         </property>
+        </widget>
        </item>
       </layout>
      </item>
@@ -87,7 +104,14 @@
         </widget>
        </item>
        <item>
-        <widget class="QDateEdit" name="dateEdit_2"/>
+        <widget class="QDateEdit" name="dateEdit_2">
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+         <property name="buttonSymbols">
+          <enum>QAbstractSpinBox::NoButtons</enum>
+         </property>
+        </widget>
        </item>
       </layout>
      </item>
@@ -101,16 +125,16 @@
     </widget>
    </item>
    <item>
-    <widget class="QPushButton" name="pushButton">
+    <widget class="QPushButton" name="pushButton_2">
      <property name="text">
-      <string>Диалог</string>
+      <string>Редактировать</string>
      </property>
     </widget>
    </item>
    <item>
-    <widget class="QPushButton" name="pushButton_2">
+    <widget class="QPushButton" name="pushButton">
      <property name="text">
-      <string>Редактировать</string>
+      <string>Заполнить</string>
      </property>
     </widget>
    </item>

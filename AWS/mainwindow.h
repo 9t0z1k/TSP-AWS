@@ -18,15 +18,17 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+    void updateCampaignNumbers();
 
 private slots:
-    void on_action_triggered();
-
-
     void on_pushButton_clicked();
+    void on_pushButton_2_clicked();
 
 private:
     Ui::MainWindow *ui;
+    QList<int> campaignNumbers;       // Список номеров маркетинговых компаний
+    QList<QWidget*> campaignForms;    // Список указателей на формы маркетинговых компаний
+
 };
 
 #endif // MAINWINDOW_H
