@@ -3,7 +3,8 @@
 
 DialogAudience::DialogAudience(QWidget *parent) :
     QDialog(parent),
-    ui(new Ui::DialogAudience)
+    ui(new Ui::DialogAudience),
+    m_audience(nullptr)
 {
     ui->setupUi(this);
 }

@@ -5,7 +5,6 @@
 #include <QMainWindow>
 
 
-
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
@@ -24,7 +23,8 @@ private slots:
     void on_pushButton_clicked();
     void on_pushButton_2_clicked();
 
-private:
+
+   private:
     Ui::MainWindow *ui;
     QList<int> campaignNumbers;       // Список номеров маркетинговых компаний
     QList<QWidget*> campaignForms;    // Список указателей на формы маркетинговых компаний

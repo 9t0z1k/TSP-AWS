@@ -62,7 +62,7 @@
          <x>0</x>
          <y>0</y>
          <width>780</width>
-         <height>490</height>
+         <height>489</height>
         </rect>
        </property>
        <layout class="QHBoxLayout" name="horizontalLayout">
@@ -95,7 +95,7 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>21</height>
+     <height>22</height>
     </rect>
    </property>
    <widget class="QMenu" name="menu">
@@ -105,6 +105,16 @@
    </widget>
    <addaction name="menu"/>
   </widget>
+  <action name="action">
+   <property name="text">
+    <string>Сохранить</string>
+   </property>
+  </action>
+  <action name="action_2">
+   <property name="text">
+    <string>Загрузить</string>
+   </property>
+  </action>
  </widget>
  <resources/>
  <connections/>

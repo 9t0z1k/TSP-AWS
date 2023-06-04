@@ -16,12 +16,20 @@ class productForm : public QWidget
 public:
     explicit productForm(QWidget *parent = nullptr);
     ~productForm();
+    void saveDataToXml(const QString& fileName);
 
+    void loadDataFromXml(const QString& fileName);
 private slots:
     void on_pushButton_clicked();
     void updateProductData(const QString& name, const QString& category, const QString& description, double price);
 
     void on_pushButton_2_clicked();
+
+
+
+    void on_save_clicked();
+
+    void on_load_clicked();
 
 private:
     Ui::productForm *ui;

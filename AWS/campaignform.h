@@ -16,12 +16,18 @@ class CampaignForm : public QWidget
 public:
     explicit CampaignForm(QWidget *parent = nullptr);
     ~CampaignForm();
-
+    void saveDataToXml(const QString& fileName);
+    void loadDataFromXml(const QString& fileName);
 private slots:
     void on_pushButton_clicked();
     void updateCampaignData(const QString mc_goal, double mc_budget, QDate mc_startDate, QDate mc_endDate);
     void on_pushButton_2_clicked();
+
     void updateProgressBar();
+
+    void on_save_clicked();
+
+    void on_load_clicked();
 
 private:
     Ui::CampaignForm *ui;

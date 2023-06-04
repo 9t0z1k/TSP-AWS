@@ -8,7 +8,7 @@
 #include "qdialog.h"
 #include "qlabel.h"
 #include "ui_mainwindow.h"
-#include "QLayout"
+
 
 static int count = 1;
 
@@ -26,7 +26,6 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButton_clicked()
 {
-//    static int count = 1;
     if(campaignNumbers.contains(count)) count++;
     QLabel* label = new QLabel("Маркетинговая компания № " + QString::number(count));
     //
@@ -87,4 +86,3 @@ void MainWindow::on_pushButton_2_clicked()
         }
     }
 }
-

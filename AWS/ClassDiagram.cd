@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="addAudience">
+    <Position X="8.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAABAEAAAgAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>addaudience.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="addbuttoncampaign">
+    <Position X="10.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAgAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>addbuttoncampaign.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddChanel">
+    <Position X="12.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAIAAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>addchanel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddProduct">
+    <Position X="7" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAABAAQAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>addproduct.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="audienceForm" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAAAAgCAAIAA=</HashCode>
+      <FileName>audienceform.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CampaignForm" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAQAAAAIAAAEAAAIAAAAAAAQAEAAAAAIAAAEAAAQAQ=</HashCode>
+      <FileName>campaignform.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="channelForm" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAABEAEEAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>channelform.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeleteDialog">
+    <Position X="9" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAQAAAAAQAAAAAQAAAIAAAAAAAQAAAAAAAAAAAAAE=</HashCode>
+      <FileName>deletedialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DialogAudience" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAEAAAAAAAAEAoAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>dialogaudience.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DialogCampaign" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAEAAAAAAAAAEAAAAAAAAAAAAAAAAEAAQAAAEAAAAAA=</HashCode>
+      <FileName>dialogcampaign.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DialogChannel">
+    <Position X="5.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIIAAAEAAAEEAEAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>dialogchannel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DialogProduct">
+    <Position X="7" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIEAAAgAAAAAAQAAAAAACAAEAAAAAAAAA=</HashCode>
+      <FileName>dialogproduct.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainWindow" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAgEAIAAAAEACAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>mainwindow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="productForm">
+    <Position X="3.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAIEAAAAAAgAAAEAAAAEAAQAAAAAAAAAAA=</HashCode>
+      <FileName>productform.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QDialog">
+    <Position X="15.25" Y="2.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="QDialog::DialogCode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>C:\Qt\6.6.0\msvc2019_64\include\QtWidgets\qdialog.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BACIBAiiQBAAAAAQBABAIAAAAAAEIAAAgAAQgAIgAEA=</HashCode>
+      <FileName>C:\Qt\6.6.0\msvc2019_64\include\QtWidgets\qdialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QWidget">
+    <Position X="3" Y="7" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="QWidget::RenderFlag" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>C:\Qt\6.6.0\msvc2019_64\include\QtWidgets\qwidget.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>hA6pAGgYqICSoYVAaL8yqpBimu1GwLWO4PBqCgXdwII=</HashCode>
+      <FileName>C:\Qt\6.6.0\msvc2019_64\include\QtWidgets\qwidget.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QObject" Collapsed="true">
+    <Position X="1" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAgAAAAQQIAgAAVUgYAAEISGAAsQiIIHBEAiIhJGACE=</HashCode>
+      <FileName>C:\Qt\6.6.0\msvc2019_64\include\QtCore\qobject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QPaintDevice" Collapsed="true">
+    <Position X="12.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAIAQAQwKAAQEiAIIAAAAAgAiIMAAgAEA=</HashCode>
+      <FileName>C:\Qt\6.6.0\msvc2019_64\include\QtGui\qpaintdevice.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
